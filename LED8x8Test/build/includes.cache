@@ -1,0 +1,79 @@
+[
+  {
+    "added_include_path": "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040"
+  },
+  {
+    "added_include_path": "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow"
+  },
+  {
+    "compile": {
+      "source_path": "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
+      "object_path": "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp.o",
+      "depfile_path": "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp.d"
+    },
+    "compile_task": {
+      "args": [
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "-I",
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/core",
+        "-c",
+        "-Werror=return-type",
+        "-Wno-psabi",
+        "-DUSBD_PID=0xf00a",
+        "-DUSBD_VID=0x2e8a",
+        "-DUSBD_MAX_POWER_MA=250",
+        "-DUSB_MANUFACTURER=\"Raspberry Pi\"",
+        "-DUSB_PRODUCT=\"Pico W\"",
+        "-DLWIP_IPV6=0",
+        "-DLWIP_IPV4=1",
+        "-DLWIP_IGMP=1",
+        "-DLWIP_CHECKSUM_CTRL_PER_NETIF=1",
+        "-DFILE_COPY_CONSTRUCTOR_SELECT=FILE_COPY_CONSTRUCTOR_PUBLIC",
+        "-DUSE_UTF8_LONG_NAMES=1",
+        "-DDISABLE_FS_H_WARNING=1",
+        "-DARDUINO_VARIANT=\"rpipicow\"",
+        "-DPICO_FLASH_SIZE_BYTES=2097152",
+        "-DFS_START=270528512",
+        "-DFS_END=270528512",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/platform_def.txt",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/rp2040/platform_def.txt",
+        "-march=armv6-m",
+        "-mcpu=cortex-m0plus",
+        "-mthumb",
+        "-ffunction-sections",
+        "-fdata-sections",
+        "-fno-exceptions",
+        "-iprefix/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/rp2040/platform_inc.txt",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/core_inc.txt",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/include",
+        "-fno-rtti",
+        "-std=gnu++17",
+        "-g",
+        "-pipe",
+        "-w",
+        "-x",
+        "c++",
+        "-E",
+        "-CC",
+        "-DF_CPU=200000000L",
+        "-DARDUINO=10607",
+        "-DARDUINO_RASPBERRY_PI_PICO_W",
+        "-DBOARD_NAME=\"RASPBERRY_PI_PICO_W\"",
+        "-DARDUINO_ARCH_RP2040",
+        "-DPICO_CYW43_SUPPORTED=1",
+        "-DCYW43_PIN_WL_DYNAMIC=1",
+        "-Os",
+        "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow",
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
+        "-o",
+        "/dev/null"
+      ]
+    }
+  },
+  {
+    "missing_include_h": ""
+  }
+]
