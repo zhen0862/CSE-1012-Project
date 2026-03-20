@@ -1,5 +1,5 @@
 #include <Arduino.h>
-#line 1 "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/LED8x8Test.ino"
+#line 1 "/Users/omartolba/CSE-1012-Project/LED8x8Test/LED8x8Test.ino"
 /*************************************************** 
   This is a library for our I2C LED Backpacks
 
@@ -28,6 +28,11 @@
 Adafruit_8x8matrix matrix = Adafruit_8x8matrix();
 int ledPin = 15;
 
+#line 29 "/Users/omartolba/CSE-1012-Project/LED8x8Test/LED8x8Test.ino"
+void setup();
+#line 66 "/Users/omartolba/CSE-1012-Project/LED8x8Test/LED8x8Test.ino"
+void loop();
+#line 29 "/Users/omartolba/CSE-1012-Project/LED8x8Test/LED8x8Test.ino"
 void setup() {
   Serial.begin(9600);
   Serial.println("8x8 LED Matrix Test");

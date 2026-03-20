@@ -1,4 +1,4 @@
-#line 1 "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/.vscode/arduino.json"
+#line 1 "/Users/omartolba/CSE-1012-Project/LED8x8Test/.vscode/arduino.json"
 {
   "port": "/dev/cu.debug-console",
   "configuration": "flash=2097152_0,freq=200,opt=Small,os=none,profile=Disabled,rtti=Disabled,stackprotect=Disabled,exceptions=Disabled,dbgport=Disabled,dbglvl=None,wificountry=worldwide,usbstack=picosdk,ipbtstack=ipv4only,uploadmethod=default",
@@ -8,16 +8,13 @@
   "useProgrammer": false,
   "optimize_for_debug": false,
   "configurationRequired": true,
-  "compile_profile": "profile-1773939508881",
+  "compile_profile": "",
   "monitorPortSettings": {
-    "settings": {
-      "port": "/dev/tty.debug-console",
-      "baudRate": 115200,
-      "lineEnding": "\r\n",
-      "dataBits": 8,
-      "parity": "none",
-      "stopBits": "one"
-    },
-    "profile_name": ""
+    "port": "/dev/cu.debug-console",
+    "baudRate": 115200,
+    "lineEnding": "\r\n",
+    "dataBits": 8,
+    "parity": "none",
+    "stopBits": "one"
   }
 }

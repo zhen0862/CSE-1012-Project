@@ -3,19 +3,6 @@
     {
       "name": "Arduino",
       "includePath": [
-<<<<<<< HEAD
-        "/Users/asherhenning/Documents/Arduino/libraries/**",
-        "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/**",
-        "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/core/**",
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/include/**",
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/cores/rp2040/**",
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/variants/rpipicow/**",
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/Wire/src/**",
-        "/Users/asherhenning/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library/**",
-        "/Users/asherhenning/Documents/Arduino/libraries/Adafruit_BusIO/**",
-        "/Users/asherhenning/Documents/Arduino/libraries/Adafruit_GFX_Library/**",
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/SPI/src/**"
-=======
         "/Users/omartolba/Documents/Arduino/libraries/**",
         "/Users/omartolba/CSE-1012-Project/LED8x8Test/**",
         "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/core/**",
@@ -27,16 +14,15 @@
         "/Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO/**",
         "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src/**",
         "/Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library/**"
->>>>>>> f5fb5cda05275ebdfaa412f35cb6995b1f2b7491
       ],
       "forcedInclude": [
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/cores/rp2040/Arduino.h"
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/Arduino.h"
       ],
-      "compilerPath": "/Users/asherhenning/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
+      "compilerPath": "/Users/omartolba/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
       "compilerArgs": [
-        "/Users/asherhenning/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/tools/pqt-gcc/4.1.0-1aec55e/bin/arm-none-eabi-g++",
         "-I",
-        "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/core",
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/core",
         "-c",
         "-Werror=return-type",
         "-Wno-psabi",
@@ -56,8 +42,8 @@
         "-DPICO_FLASH_SIZE_BYTES=2097152",
         "-DFS_START=270528512",
         "-DFS_END=270528512",
-        "@/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/lib/platform_def.txt",
-        "@/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/lib/rp2040/platform_def.txt",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/platform_def.txt",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/rp2040/platform_def.txt",
         "-march=armv6-m",
         "-mcpu=cortex-m0plus",
         "-mthumb",
@@ -65,10 +51,10 @@
         "-fdata-sections",
         "-fno-exceptions",
         "-MMD",
-        "-iprefix/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/",
-        "@/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/lib/rp2040/platform_inc.txt",
-        "@/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/lib/core_inc.txt",
-        "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/include",
+        "-iprefix/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/rp2040/platform_inc.txt",
+        "@/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/lib/core_inc.txt",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/include",
         "-fno-rtti",
         "-std=gnu++17",
         "-g",
@@ -82,16 +68,6 @@
         "-DCYW43_PIN_WL_DYNAMIC=1",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
-<<<<<<< HEAD
-        "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/cores/rp2040",
-        "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/variants/rpipicow",
-        "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/Wire/src",
-        "-I/Users/asherhenning/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library",
-        "-I/Users/asherhenning/Documents/Arduino/libraries/Adafruit_BusIO",
-        "-I/Users/asherhenning/Documents/Arduino/libraries/Adafruit_GFX_Library",
-        "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/SPI/src",
-        "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
-=======
         "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040",
         "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow",
         "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/Wire/src",
@@ -100,9 +76,8 @@
         "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src",
         "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library",
         "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
->>>>>>> f5fb5cda05275ebdfaa412f35cb6995b1f2b7491
         "-o",
-        "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp.o"
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp.o"
       ],
       "defines": [
         "USBD_PID=0xf00a",
