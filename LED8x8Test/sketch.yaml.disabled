@@ -1,0 +1,16 @@
+profiles:
+  profile-1773939508881:
+    fqbn: rp2040:rp2040:rpipicow:flash=2097152_0,freq=200,opt=Small,os=none,profile=Disabled,rtti=Disabled,stackprotect=Disabled,exceptions=Disabled,dbgport=Disabled,dbglvl=None,wificountry=worldwide,usbstack=picosdk,ipbtstack=ipv4only,uploadmethod=default
+    platforms:
+      - platform: rp2040:rp2040 (5.5.0)
+        platform_index_url: https://github.com/earlephilhower/arduino-pico/releases/download/global/package_rp2040_index.json
+    libraries:
+      - Adafruit LED Backpack Library (1.5.1)
+      - Adafruit BusIO (1.17.4)
+      - Adafruit GFX Library (1.12.5)
+    programmer: ""
+    port_config:
+      baudrate: "115200"
+      bits: "8"
+      parity: none
+      stop_bits: "1"

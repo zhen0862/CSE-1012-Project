@@ -8,7 +8,12 @@
         "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/core/**",
         "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/include/**",
         "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/**",
-        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow/**"
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/Wire/src/**",
+        "/Users/omartolba/Documents/Arduino/libraries/Adafruit_GFX_Library/**",
+        "/Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src/**",
+        "/Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library/**"
       ],
       "forcedInclude": [
         "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/Arduino.h"
@@ -65,6 +70,11 @@
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
         "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040",
         "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/Wire/src",
+        "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_GFX_Library",
+        "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src",
+        "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library",
         "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
         "-o",
         "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp.o"

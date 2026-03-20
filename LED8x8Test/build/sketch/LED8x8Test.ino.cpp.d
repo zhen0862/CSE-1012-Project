@@ -135,4 +135,25 @@
  /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/resets.h \
  /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/resets.h \
  /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/Bootsel.h \
- /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2_common/pico_stdio/include/pico/stdio.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/Wire/src/Wire.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/api/HardwareI2C.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/api/../../../ArduinoCore-API/api/HardwareI2C.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2_common/hardware_i2c/include/hardware/i2c.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/i2c.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/i2c.h \
+ /Users/omartolba/Documents/Arduino/libraries/Adafruit_GFX_Library/Adafruit_GFX.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/Print.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/api/Print.h \
+ /Users/omartolba/Documents/Arduino/libraries/Adafruit_GFX_Library/gfxfont.h \
+ /Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_I2CDevice.h \
+ /Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO/Adafruit_SPIDevice.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src/SPI.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/api/HardwareSPI.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/api/../../../ArduinoCore-API/api/HardwareSPI.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2_common/hardware_spi/include/hardware/spi.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/spi.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_regs/include/hardware/regs/spi.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src/SPIHelper.h \
+ /Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0//pico-sdk/src/rp2040/hardware_structs/include/hardware/structs/iobank0.h \
+ /Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library/Adafruit_LEDBackpack.h
