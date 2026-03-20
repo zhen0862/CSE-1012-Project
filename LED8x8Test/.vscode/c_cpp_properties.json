@@ -3,6 +3,7 @@
     {
       "name": "Arduino",
       "includePath": [
+<<<<<<< HEAD
         "/Users/asherhenning/Documents/Arduino/libraries/**",
         "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/**",
         "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/core/**",
@@ -14,6 +15,19 @@
         "/Users/asherhenning/Documents/Arduino/libraries/Adafruit_BusIO/**",
         "/Users/asherhenning/Documents/Arduino/libraries/Adafruit_GFX_Library/**",
         "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/SPI/src/**"
+=======
+        "/Users/omartolba/Documents/Arduino/libraries/**",
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/**",
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/core/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/include/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/Wire/src/**",
+        "/Users/omartolba/Documents/Arduino/libraries/Adafruit_GFX_Library/**",
+        "/Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO/**",
+        "/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src/**",
+        "/Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library/**"
+>>>>>>> f5fb5cda05275ebdfaa412f35cb6995b1f2b7491
       ],
       "forcedInclude": [
         "/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/cores/rp2040/Arduino.h"
@@ -68,6 +82,7 @@
         "-DCYW43_PIN_WL_DYNAMIC=1",
         "-Os",
         "-DWIFICC=CYW43_COUNTRY_WORLDWIDE",
+<<<<<<< HEAD
         "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/cores/rp2040",
         "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/variants/rpipicow",
         "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/Wire/src",
@@ -76,6 +91,16 @@
         "-I/Users/asherhenning/Documents/Arduino/libraries/Adafruit_GFX_Library",
         "-I/Users/asherhenning/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.1/libraries/SPI/src",
         "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
+=======
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/cores/rp2040",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/variants/rpipicow",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/Wire/src",
+        "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_GFX_Library",
+        "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_BusIO",
+        "-I/Users/omartolba/Library/Arduino15/packages/rp2040/hardware/rp2040/5.5.0/libraries/SPI/src",
+        "-I/Users/omartolba/Documents/Arduino/libraries/Adafruit_LED_Backpack_Library",
+        "/Users/omartolba/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp",
+>>>>>>> f5fb5cda05275ebdfaa412f35cb6995b1f2b7491
         "-o",
         "/Users/asherhenning/Documents/GitHub/CSE-1012-Project/LED8x8Test/build/sketch/LED8x8Test.ino.cpp.o"
       ],

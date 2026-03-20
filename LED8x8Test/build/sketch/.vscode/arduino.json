@@ -8,7 +8,7 @@
   "useProgrammer": false,
   "optimize_for_debug": false,
   "configurationRequired": true,
-  "compile_profile": "",
+  "compile_profile": "profile-1773939508881",
   "monitorPortSettings": {
     "settings": {
       "port": "/dev/tty.debug-console",
