@@ -10,8 +10,8 @@
   "compile_profile": "profile-1773939508881",
   "monitorPortSettings": {
     "settings": {
-      "port": "",
-      "baudRate": 115200,
+      "port": "/dev/tty.usbmodem101",
+      "baudRate": 9600,
       "lineEnding": "\r\n",
       "dataBits": 8,
       "parity": "none",
